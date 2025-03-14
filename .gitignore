@@ -1,0 +1,52 @@
+# Virtual environment
+venv/
+chatbot_env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & Debug files
+*.log
+logs/
+
+# Environment Variables
+.env
+*.env
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Dependency files (if using virtualenv or pipenv)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Compiled code
+*.so
+*.dll
+*.exe
+*.o
+*.out
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Large data files
+*.csv
+*.sqlite3
+*.db
+*.json
+
+# Node.js (if using frontend with Python backend)
+node_modules/
+package-lock.json
+yarn.lock
