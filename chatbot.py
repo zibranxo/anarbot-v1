@@ -35,7 +35,7 @@ def predict_intent(user_input):
     tag = encoder.inverse_transform([np.argmax(prediction)])[0]
     return tag
 
-genai.configure(api_key="AIzaSyBMLfz9o-XtoqJAE71nr1JfWXznZs6rDJ4")
+genai.configure(api_key="Enter Gemini API KEY")
 
 model = genai.GenerativeModel("gemini-2.0-flash")
 
